@@ -20,4 +20,4 @@ spec:
         args: ["-c", "echo \"<p>Hello from $(hostname)</p>\" > index.html; python -m SimpleHTTPServer 8080"]
         ports:
         - name: http
-          containerPort: 8080
+          containerPort: 18080
